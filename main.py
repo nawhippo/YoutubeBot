@@ -9,9 +9,9 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
-BOT_TOKEN = "MTIwMTk2MjcxODU3MjA2MDczMg.GMoZjf.2p1r6keE7KT_fv8GZn6IXU1ShxnZJeeWfEVrWA"
-CHANNEL_ID = 1201970181794955335
-VOICE_CHANNEL_ID = 697982161671684180
+BOT_TOKEN =
+CHANNEL_ID =
+VOICE_CHANNEL_ID =
 songPlaying = False
 songlist = []
 
