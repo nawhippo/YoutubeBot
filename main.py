@@ -78,7 +78,7 @@ async def play(ctx, url):
             url2 = info['formats'][0]['url']
             await ctx.send(f'Now playing: {info["title"]}')
             songPlaying = True
-            voice_client.play(FFmpegPCMAudio(url2), executable="C:/Users/NATHAN/Downloads/ffmpeg-2024-01-28-git-e0da916b8f-full_build/bin/")
+            voice_client.play(FFmpegPCMAudio(url2))
         songlist.append(url)
     except youtube_dl.utils.DownloadError as e:
         await ctx.send("An error occurred while processing the song, but I'll try to continue.")
